@@ -19,7 +19,7 @@ export default function QuizPage() {
 
         {quizQuestions.map((q) => (
           <div key={q.id} className="mb-4">
-            <p className="text-lg font-medium">{q.question}</p>
+            <p className="text-lg text-blue font-medium">{q.question}</p>
             {q.options.map((option) => (
               <label key={option} className="block mt-2 cursor-pointer">
                 <input
