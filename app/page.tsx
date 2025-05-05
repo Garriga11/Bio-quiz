@@ -13,9 +13,9 @@ export default function QuizPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-800 p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6">
       <div className="max-w-2xl w-full bg-white shadow-md rounded-lg p-6">
-        <h1 className="text-2xl font-bold text-center text-blue-600 mb-6">Biology 101 Quiz</h1>
+        <h1 className="text-2xl font-bold text-center text-blue mb-6">Biology 101 Quiz</h1>
 
         {quizQuestions.map((q) => (
           <div key={q.id} className="mb-4">
